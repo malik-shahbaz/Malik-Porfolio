@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="nav-links">
+                <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="#about-me"><i class="fa-solid fa-user"></i> About Me</a>
+                <a href="#skills"><i class="fa-solid fa-book"></i> Skills</a>
+                <a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                <a href="#contact"><i class="fa-brands fa-hire-a-helper"></i> Contact Me</a>
+                <a href="#resume"><i class="fa-solid fa-file"></i> Resume/CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home-container">
+    
+            <div class="home-left">
+                <h3>Hello, It's Me</h3>
+                <h1>Malik</h1>
+                <h3>And I'm a <span class="typing"></span></h3>
+                <p>I build modern, responsive and user-friendly websites using HTML, CSS and JavaScript.
+                    My focus is clean design and smooth user experience.</p>
+    
+                <div class="btn-box">
+                    <a href="#" class="btn">Hire Me</a>
+                    <a href="#" class="btn-outline">Download CV</a>
+                </div>
+    
+                <div class="social-icons">
+                    <a href="https://github.com/malik-shahbaz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="http://www.linkedin.com/in/m-shahbaz-99ba38200" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="http://www.facebook.com/shahbaz.khilji.777s" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:shahbax051@gmail.com" target="_blank"><i class="fa-solid fa-at"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+    
+            <div class="home-right">
+                <img src="shahbaz.jpg" alt="">
+            </div>
+    
+        </div>
+    
+        <div class="scroll-down">
+            <span></span>
+        </div>
+    </section>
+
+
+    <section class="about-me" id="about-me" >
+        <div class="about-container">
+            <div class="left">
+                <h2>About Me</h2>
+                <h1>
+                    <span>I</span>
+                    <span>am</span>
+                    <span>Malik</span>
+                </h1>
+                <p>I am a passionate Frontend Web Developer with strong knowledge of HTML, CSS, and JavaScript. I enjoy building responsive
+                and user-friendly websites that provide a smooth user experience. I focus on writing clean code and continuously
+                improving my skills by working on real-world projects. My goal is to grow as a professional developer and create
+                impactful web applications.</p>
+
+                <div class="skill-ticker">
+                    <div class="ticker-track">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="right">
+                <img src="about.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>85%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>JavaScript</span>
+                <span>75%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-PROJECTS -->
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+
+        <!--Filter Buttons  -->
+        <div class="project-filters">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="html">HTML/CSS</button>
+            <button data-filter="js">JavaScript</button>
+        </div>
+
+       <div class="project-container">
+        <div class="project-card" data-category="html">
+            <img src="shoes-website.png" alt="">
+            <div class="project-overlay">
+                <h3>Shoes Website</h3>
+                <p>Responsive Portfolio Using HTML & CSS</p>
+                <div class="project-buttons">
+                    <a href="#">live </a>
+                    <a href="#">Code </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card" data-category="js">
+            <img src="project js.PNG" alt="">
+            <div class="project-overlay">
+                <h3>Carousel Website</h3>
+                <p>Responsive Portfolio Using HTML & CSS</p>
+                <div class="project-buttons">
+                    <a href="#">live </a>
+                    <a href="#">Code </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card" data-category="html">
+            <img src="currency converter.png" alt="">
+            <div class="project-overlay">
+                <h3>Currency Converter</h3>
+                <p>Responsive Portfolio Using HTML & CSS</p>
+                <div class="project-buttons">
+                    <a href="#">live </a>
+                    <a href="#">Code </a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+    </section>
+
+    <!-- SECTION-CONTACT-ME -->
+
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <div class="left-part">
+                <h3>
+                    Let's Build Something Amazing. <i class="fa-solid fa-rocket"></i>
+                </h3>
+                <p>If you have a project idea or job opportunity, feel free to reach out, I'd love to hear from you!</p>
+                <div class="contact-resources">
+                    <a href="#"><i class="fa-solid fa-envelope"></i> shahbax051@gmail.com</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i> +92319-6596366</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Pakistan</a>
+                </div>
+                <div class="scl-btn">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-solid fa-at"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+            </div>
+
+            <div class="right-part">
+                <form id="contact-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="user_name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="user_email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECTION-RESUME -->
+
+    <section class="resume" id="resume">
+        <h2 id="h2">Developer <span>Resume</span></h2>
+        <h2 id="h2">Building Modern Web Experiences</h2>
+        
+        <div class="resume-container">
+            
+            <div class="resume-right">
+                <div class="name">
+                    <h1>Frontend-Web-Developer</h1>
+                </div>
+
+                <div class="timeline">
+                    <div class="container left-container">
+                        <img src="google_PNG19630.png">
+                        <div class="text-box">
+                            <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+                            <small>2023 - Present</small>
+                            <p>Frontend Developer – Built responsive websites using HTML, CSS & JavaScript.</p>
+                            <ul>
+                                <li>Developed 15+ responsive websites</li>
+                                <li>Improved page speed by 40%</li>
+                                <li>Built reusable UI components</li>
+                                <li>Optimized mobile responsiveness</li>
+                            </ul>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="container right-container">
+                        <img src="google_PNG19630.png">
+
+                        <div class="text-box">
+                            <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                            <small>2022 - 2024</small>
+                            <ul>
+                                <li>Studied Computer Science fundamentals</li>
+                                <li>Worked on academic projects</li>
+                                <li>Practical knowledge of MS Office tools</li>
+                            </ul>
+                            <span class="right-container-arrow"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="container left-container">
+                        <img src="google_PNG19630.png">
+                        <div class="text-box">
+                            <h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
+                            <div class="skills-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MS Excel (Data Analysis)</span>
+                            <span>MS Word (Documentation)</span>
+                            <span>PowerPoint (Presentation Design)</span>
+                            </div>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="container right-container">
+                        <img src="google_PNG19630.png">
+                        <div class="text-box">
+                            <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
+                            <p id="certificate">Web Development Certification – 2024</p>
+
+                            <span class="right-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                </div>
+
+                
+                
+
+
+            </div>
+
+           
+        </div>
+    </section>
+
+    <footer class="footer">
+    
+        <div class="footer-container">
+    
+            <div class="footer-about">
+                <h2>Malik</h2>
+                <p>Frontend Web Developer passionate about creating modern, responsive and user-friendly websites.</p>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about-me">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-envelope"></i> shahbax051@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +92 3196596366</p>
+                <p><i class="fa-solid fa-location-dot"></i> Pakistan</p>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="footer-icons">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:example@gmail.com"><i class="fa-solid fa-at"></i></a>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2026 Malik | All Rights Reserved</p>
+        </div>
+    
+    </footer>
+    
+    <!-- Back To Top Button -->
+    <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
