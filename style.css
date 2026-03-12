@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    /* background: #134E8E; */
+}
 
 html{
     scroll-behavior: smooth;
@@ -20,7 +23,7 @@ nav{
 }
 
 .navbar{
-    background: linear-gradient(to right, #e8f5e9, #ffffff);
+    background:#134E8E;
 }
 
 
@@ -33,22 +36,22 @@ nav{
     flex-wrap: wrap;
     line-height: 1.6;
     gap: clamp(2vw,3vh,4vw);
-    border-radius: 0 0 clamp(10px, 8vw, 8vw) clamp(10px, 8vw, 8vw);
-    /* box-shadow: 0 0.2vw 1vw rgba(0,0,0,0.9); */
-    border-bottom: 1px solid green;
+    border-radius: 0 0 clamp(10px, 8vw, 8vw)  clamp(10px, 8vw, 8vw);
+    /* box-shadow: 0 0.2vw 1vw rgba(14, 253, 138, 0.2); */
+    border-bottom: 10px solid white;
 
 }
 
 .nav-links a{
     position: relative;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: clamp(0.5rem,2.8vh,1.5rem);
     transition: 0.5s;
 }
 
 .nav-links a i{
-    color: green;
+    color: orange;
 }
 
 .nav-links a:hover{
@@ -62,7 +65,7 @@ nav{
     bottom:-0.4rem;
     width: 0%;
     height: 0.15rem;
-    background-color: green;
+    background-color: white;
     transition: width 0.3s ease;
 }
 
@@ -80,7 +83,8 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 5vh 6vw;
-    background: linear-gradient(to right, #e8f5e9, #ffffff);
+    /* background: linear-gradient(to right, #e8f5e9, #ffffff); */
+    background: white;
     
 }
 
@@ -101,7 +105,7 @@ nav{
 
 .home-left h1 {
     font-size: clamp(2rem, 5vw, 3.5rem);
-    color: green;
+    color:#134E8E;
 }
 
 .home-left span {
@@ -155,14 +159,14 @@ nav{
 .social-icons a {
     font-size: 1.5rem;
     margin-right: 1rem;
-    color: green;
+    color: #134E8E;
     transition: 0.3s;
     display: inline-block;
 }
 
 .social-icons a:hover {
     transform: translateY(-8px) scale(1.5);
-    color: darkgreen;
+    color: #134E8E;
     
 }
 
@@ -178,9 +182,10 @@ nav{
     width: clamp(200px, 30vw, 350px);
     height: clamp(200px, 30vw, 350px);
     border-radius: 50%;
-    border: 4px solid green;
+    border: 4px solid #134E8E;
     object-fit: cover;
     animation: float-img 3s ease-in-out infinite;
+    padding: clamp(0.3rem,0.5vw,0.5rem);
 }
 
 /* Scroll Down Indicator */
@@ -259,8 +264,10 @@ nav{
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3vh;
+    margin: 3vh auto;
     padding: 10vh 6vw;
+    border-top:2px solid #134E8E;
+    
 }
 
 .left{
@@ -385,22 +392,25 @@ nav{
 /* SKILL-SECTION */
 
 .skills{
+    height: 50vh;
     width: 90%;
     margin: clamp(4rem,12vh,8rem) auto;
     padding: 6vh 4vw;
-    box-shadow: 0 0.1vw 0.5vw rgba(0, 128, 0, 0.92);
     border-radius: 5vh;
+    background: #134E8E;
+   
+    color: white;
 }
 
 .skills h2{
     text-align: center;
     font-size: clamp(1.2rem,5vw,2rem);
     margin-bottom: 4vh;
-    color: green;
+    color: white;
 }
 
 .skill{
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
 }
 
 .skill-info{
@@ -421,7 +431,7 @@ nav{
 .progress{
     height: 100%;
     width: 0;
-    background: green;
+    background: red;
     border-radius: 5vh;
     transition:width 3.5s ease;
 }
@@ -1007,3 +1017,13 @@ form button:hover{
 #topBtn:hover {
     background: darkgreen;
 }
+
+
+
+
+
+
+
+
+
+
