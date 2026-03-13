@@ -46,7 +46,7 @@ nav{
     position: relative;
     text-decoration: none;
     color: white;
-    font-size: clamp(0.5rem,2.8vh,1.5rem);
+    font-size: clamp(0.5rem,2.8vw,1.5rem);
     transition: 0.5s;
 }
 
@@ -1017,6 +1017,7 @@ form button:hover{
 #topBtn:hover {
     background: darkgreen;
 }
+
 
 
 
